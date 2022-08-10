@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/rel_layout"
+    android:layout_height="match_parent"
+    android:background="@drawable/splash_bckground_blueish"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    tools:context=".ui.activities.DonorMainActivity">
+
+    <com.donativ.utils.TextViews.RegularTextView
+        android:id="@+id/text_home"
+        android:layout_width="314dp"
+        android:gravity="center"
+        android:layout_marginTop="50dp"
+        android:layout_centerHorizontal="true"
+        android:layout_height="55dp"
+        android:textSize="15sp" />
+
+    <com.donativ.utils.Buttons.MyButton
+        android:id="@+id/btn_add_product"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/text_home"
+        android:layout_gravity="center"
+        android:layout_marginStart="@dimen/settings_button_marginStartEnd"
+        android:layout_marginTop="140dp"
+        android:layout_marginEnd="@dimen/settings_button_marginStartEnd"
+        android:layout_marginBottom="@dimen/settings_button_marginTopBottom"
+        android:background="@drawable/button_background"
+        android:gravity="center"
+        android:paddingTop="@dimen/btn_padding"
+        android:paddingBottom="@dimen/btn_padding"
+        android:text="@string/btn_add_product"
+        android:textColor="@android:color/white"
+        android:textSize="@dimen/btn_textSize" />
+
+    <com.donativ.utils.Buttons.MyButton
+        android:id="@+id/btn_view_added_products"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btn_add_product"
+        android:layout_gravity="center"
+        android:layout_marginStart="@dimen/settings_button_marginStartEnd"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="@dimen/settings_button_marginStartEnd"
+        android:layout_marginBottom="@dimen/settings_button_marginTopBottom"
+        android:background="@drawable/button_background"
+        android:gravity="center"
+        android:paddingTop="@dimen/btn_padding"
+        android:paddingBottom="@dimen/btn_padding"
+        android:text="@string/btn_view_added_products"
+        android:textColor="@android:color/white"
+        android:textSize="@dimen/btn_textSize" />
+
+    <com.donativ.utils.Buttons.MyButton
+        android:id="@+id/btn_view_requested_products"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btn_view_added_products"
+        android:layout_gravity="center"
+        android:layout_marginStart="@dimen/settings_button_marginStartEnd"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="@dimen/settings_button_marginStartEnd"
+        android:layout_marginBottom="@dimen/settings_button_marginTopBottom"
+        android:background="@drawable/button_background"
+        android:gravity="center"
+        android:paddingTop="@dimen/btn_padding"
+        android:paddingBottom="@dimen/btn_padding"
+        android:text="@string/btn_view_requested_products"
+        android:textColor="@android:color/white"
+        android:textSize="@dimen/btn_textSize" />
+
+
+</RelativeLayout>

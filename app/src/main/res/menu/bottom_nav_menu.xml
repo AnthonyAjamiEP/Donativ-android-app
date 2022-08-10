@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/navigation_beneficiary"
+        android:icon="@drawable/rm"
+        android:title="@string/title_benefit" />
+
+    <item
+        android:id="@+id/navigation_donor"
+        android:icon="@drawable/ben"
+        android:title="@string/title_donate" />
+
+<!--    <item-->
+<!--        android:id="@+id/navigation_profile"-->
+<!--        android:icon="@drawable/pr"-->
+<!--        android:title="@string/title_profile" />-->
+
+</menu>

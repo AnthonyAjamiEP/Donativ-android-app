@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/navigation_beneficiary">
+
+    <fragment
+        android:id="@+id/navigation_beneficiary"
+        android:name="com.donativ.ui.fragments.BeneficiaryFragment"
+        android:label="Search for Products"
+        tools:layout="@layout/fragment_donor" />
+
+    <fragment
+        android:id="@+id/navigation_donor"
+        android:name="com.donativ.ui.fragments.DonorFragment"
+        android:label="Donate"
+        tools:layout="@layout/fragment_beneficiary" />
+
+<!--    <fragment-->
+<!--        android:id="@+id/navigation_profile"-->
+<!--        android:name="com.donativ.ui.fragments.ProfileFragment"-->
+<!--        android:label="Profile"-->
+<!--        tools:layout="@layout/fragment_profile" />-->
+</navigation>

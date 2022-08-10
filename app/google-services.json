@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "254270205463",
+    "project_id": "donativ-app",
+    "storage_bucket": "donativ-app.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:254270205463:android:699bdbabde1231b3b8f652",
+        "android_client_info": {
+          "package_name": "com.donativ.app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "254270205463-ullp06avugn1gch1pb3jcrmmvb95qnju.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.donativ.app",
+            "certificate_hash": "68f76e7eee3d7138ab81271afb2abe34723cd8a7"
+          }
+        },
+        {
+          "client_id": "254270205463-5tjodahnjplrg6mplgmshqeerra1dd48.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAZ2htM8yLXmre2e-XfLVtvE5mENEm3Pqs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "254270205463-5tjodahnjplrg6mplgmshqeerra1dd48.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
